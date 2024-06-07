@@ -1,13 +1,28 @@
 import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
+import About from './components/About'
+import Skills from './components/Skills'
+import Stage from './components/Stage'
+import Project4 from './components/Project4'
+import Angular from './components/Angular'
+import Intro from './components/Intro'
 
-function Main() {
+interface MainProps {
+  darkMode: boolean
+}
+
+function Main({ darkMode }: MainProps) {
   return (
     <main className='flex-grow overflow-y-scroll 
     text-textl dark:bg-mainbgd dark:text-textd'
     >
-      <h1>React App</h1>
+      <Intro darkMode={darkMode} />
+      <About />
+      <Skills />
+      <Stage />
+      <Project4 />
+      <Angular />
     </main>
   )
 }
@@ -25,7 +40,7 @@ function App() {
       'dark flex max-w-screen max-h-screen overflow-hidden'}
     >
       <Navbar toggleMode={toggleMode} />
-      <Main />
+      <Main darkMode={isDarkMode} />
     </div>
   )
 }
