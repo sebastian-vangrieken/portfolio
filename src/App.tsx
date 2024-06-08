@@ -8,17 +8,17 @@ import Angular from './components/Angular'
 import Intro from './components/Intro'
 
 interface MainProps {
-  darkMode: boolean
+  darkMode: boolean;
 }
 
 function Main({ darkMode }: MainProps) {
   return (
-    <main className='flex-grow overflow-y-scroll 
+    <main className='flex-grow overflow-y-scroll px-24 
     text-textl dark:bg-mainbgd dark:text-textd'
     >
       <Intro darkMode={darkMode} />
       <About />
-      <Skills />
+      <Skills darkMode={darkMode} />
       <Stage />
       <Project4 />
       <Angular />
