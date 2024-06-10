@@ -1,7 +1,9 @@
 function Angular() {
     return (
-        <div id="angular" className="">
-            <p>Angular project</p>
+        <div id="angular" className="flex flex-col items-end pb-44">
+            <h1 className="text-3xl font-bold border-b-4 w-fit mb-12 border-highlightl dark:border-highlightd">
+                Angular project
+            </h1>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque placeat cupiditate officiis quia aperiam dolorem laudantium exercitationem eaque inventore doloribus praesentium tempore reiciendis, nobis voluptatibus officia, deserunt suscipit odio necessitatibus?
             Harum temporibus ea inventore at in dolores amet accusamus totam aspernatur eligendi. Aliquid accusantium quaerat a nostrum perferendis saepe id sunt quas sed commodi nobis debitis, nam, blanditiis quae eveniet?
             Ab pariatur distinctio provident harum maiores laudantium at possimus deleniti ipsam, dignissimos ullam quae quod! Distinctio, harum ipsa? Delectus nisi vero laborum optio necessitatibus totam, doloribus vel officia. Natus, itaque!

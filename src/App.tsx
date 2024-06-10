@@ -6,6 +6,7 @@ import Stage from './components/Stage'
 import Project4 from './components/Project4'
 import Angular from './components/Angular'
 import Intro from './components/Intro'
+import UnrealEngine from './components/UnrealEngine'
 
 interface MainProps {
   darkMode: boolean;
@@ -22,6 +23,7 @@ function Main({ darkMode }: MainProps) {
       <Stage />
       <Project4 />
       <Angular />
+      <UnrealEngine />
     </main>
   )
 }

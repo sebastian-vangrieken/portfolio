@@ -1,7 +1,9 @@
 function Project4() {
     return (
-        <div id="project4" className="">
-            <p>Project 4.0</p>
+        <div id="project4" className="pb-44">
+            <h1 className="text-3xl font-bold border-b-4 w-fit mb-12 border-highlightl dark:border-highlightd">
+                Project 4.0
+            </h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tempora quis laboriosam totam ducimus modi laudantium amet odio quas architecto quae ullam maxime fugit sed, ex quos fuga. Odit, maxime.
             Minus expedita iusto sequi modi quo. Animi omnis vel eaque ex, ipsa voluptatibus nemo explicabo repellendus voluptatum sunt sed temporibus tempora cumque. Autem, molestias exercitationem consequuntur accusantium placeat est ipsum!
             Blanditiis quae reprehenderit alias molestias odio recusandae veritatis voluptas. Pariatur, minima odit. Porro minima vel tempora cum corrupti voluptates commodi nobis iusto vero. Fugiat maiores, cumque eos ducimus eligendi aspernatur.

@@ -1,7 +1,9 @@
 function Stage() {
     return (
-        <div id="stage" className="">
-            <p>Stage</p>
+        <div id="stage" className="flex flex-col items-end pb-44">
+            <h1 className="text-3xl font-bold border-b-4 w-fit mb-12 border-highlightl dark:border-highlightd">
+                Stage
+            </h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque numquam molestiae nulla explicabo. Dolores magnam modi esse. Dolorem, odio laudantium omnis vitae quam, maiores natus reprehenderit, possimus porro consequuntur illo!
             Officia dolorum repellat nisi aspernatur magni, aut nobis iusto, animi suscipit id commodi doloribus ratione! Rerum voluptatem illo temporibus id. Molestias quos aliquam quo minus sint. Cum nostrum natus facere!
             Tempore amet, explicabo repellat molestias doloremque voluptate reprehenderit deserunt voluptatibus ipsa placeat. Mollitia autem suscipit itaque distinctio, possimus ea fuga aut debitis accusamus molestias totam tempore. Et sequi similique corrupti.

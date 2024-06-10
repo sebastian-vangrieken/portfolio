@@ -13,7 +13,7 @@ function Navbar({ toggleMode }: NavbarProps) {
         <nav className="relative flex flex-col items-center w-fit min-w-60 h-screen 
         text-textl bg-navbgl dark:bg-navbgd dark:text-textd"
         >
-            <img src="./foto.jpg" alt="profiel foto" className="mt-8 rounded-full w-40 h-40" />
+            <img src="./foto.jpg" alt="profiel foto" className="mt-8 rounded-full w-40 h-40 border-4 border-highlightl dark:border-highlightd" />
             <p className="m-4 text-xl font-semibold">
                 Sebastian Van Grieken
             </p>
@@ -58,6 +58,13 @@ function Navbar({ toggleMode }: NavbarProps) {
                     hover:border-highlightl dark:hover:border-highlightd`}
                     >
                         Angular project
+                    </a>
+                </li>
+                <li className="my-1">
+                    <a href="#unreal" className={`hover:border-b-2
+                    hover:border-highlightl dark:hover:border-highlightd`}
+                    >
+                        Unreal engine course
                     </a>
                 </li>  
             </ul>
