@@ -13,7 +13,7 @@ function Navbar({ toggleMode }: NavbarProps) {
         <nav className="relative flex flex-col items-center w-fit min-w-60 h-screen 
         text-textl bg-navbgl dark:bg-navbgd dark:text-textd"
         >
-            <img src="./foto.jpg" alt="profiel foto" className="mt-8 rounded-full w-32 h-32" />
+            <img src="./foto.jpg" alt="profiel foto" className="mt-8 rounded-full w-40 h-40" />
             <p className="m-4 text-xl font-semibold">
                 Sebastian Van Grieken
             </p>
