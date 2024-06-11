@@ -12,6 +12,8 @@ function Angular() {
                 Doorheen het semester kregen we hulp van de leerkracht en 2 professionele angular developers.
                 Mijn contributie aan het project was vooral back-end gericht. Ik heb de basic crud van de .NET back-end opgezet. Daarna heb ik ook gewerkt aan de authentication voor de front en back-end met auth0. 
                 Op het einde van het semester heeft elk team zichzelf verdedigd tegenover een jurie, en ik mag blij zijn om te zeggen dat het team waar ik bijhoorde eerst uitkwamen.
+                Dit project was zeer leerrijk omdat we een applicatie moesten maken die end-to-end werkte, de applicatie zou in productie moeten kunnen.
+                De hulp van profecionals was ook fijn, op die manier werkte we aan een applicatie zoals je dat in het werkveld ook zou doen.
             </p>
             <br />
             <ImageCarousel />
