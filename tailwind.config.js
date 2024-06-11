@@ -19,6 +19,7 @@ export default {
         themeToggleborderd: '#ffd900',
         highlightl: '#5865f2',
         highlightd: '#ffd900',
+        wisemenGeel: '#ccff00'
     },
     extend: {},
   },

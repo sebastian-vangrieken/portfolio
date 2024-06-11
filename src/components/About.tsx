@@ -23,12 +23,6 @@ function About() {
                 Buiten school ben ik altijd in beweging. Ik speel al heel mijn leven tennis, en sinds een paar jaar geef ik ook les aan de jongste spelers. 
                 Naast tennis heb ik sinds dit jaar ook lopen opgenomen. In april heb ik al meegedaan aan de 10 miles in Antwerpen, en een marathon staat ook al ingepland voor dit jaar.
             </p>
-            <br />
-            <p className="flex-wrap w-3/4">
-                Sinds ik klein ben ga ik ook elk jaar naar de Oostenrijkse alpen. Hier ga ik elk jaar wandelen, en sinds een paar jaar ook skien.
-                Ik hou van de natuur hier, en kan even tot rust komen.
-            </p>
-            <ImageCarousel images={images} />
         </div>
     )
 }

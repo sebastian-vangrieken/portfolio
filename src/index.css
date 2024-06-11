@@ -13,3 +13,21 @@
         scrollbar-width: none;  /* Firefox */
   }
 }
+
+@layer utilities {
+    .background-pattern-light {
+        background-color: #ffffff;
+opacity: 0.8;
+background-image:  linear-gradient(#5865f2 2.2px, transparent 2.2px), linear-gradient(90deg, #5865f2 2.2px, transparent 2.2px), linear-gradient(#5865f2 1.1px, transparent 1.1px), linear-gradient(90deg, #5865f2 1.1px, #ffffff 1.1px);
+background-size: 55px 55px, 55px 55px, 11px 11px, 11px 11px;
+background-position: -2.2px -2.2px, -2.2px -2.2px, -1.1px -1.1px, -1.1px -1.1px;
+    }
+
+    .background-pattern-dark {
+        background-color: #313338;
+        opacity: 0.8;
+        background-image:  linear-gradient(#ffd900 2.2px, transparent 2.2px), linear-gradient(90deg, #ffd900 2.2px, transparent 2.2px), linear-gradient(#ffd900 1.1px, transparent 1.1px), linear-gradient(90deg, #ffd900 1.1px, #313338 1.1px);
+        background-size: 55px 55px, 55px 55px, 11px 11px, 11px 11px;
+        background-position: -2.2px -2.2px, -2.2px -2.2px, -1.1px -1.1px, -1.1px -1.1px;
+    }
+}
