@@ -2,15 +2,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCircleArrowRight, faCircleArrowLeft } from "@fortawesome/free-solid-svg-icons"
 import { useEffect, useRef, useState } from "react";
 
-const images: string[] = [
-    "./angular_groupphoto.png",
-    "./angular_homescreen.png",
-    "./angular_planscreen.png",
-    "./angular_activityscreen.png",
-    "./angular_imagepicker.png",
-]
+interface ImageCarouselProps {
+    images: string[];
+}
 
-function ImageCarousel() {
+function ImageCarousel({ images }: ImageCarouselProps) {
     const carouselRef = useRef<HTMLDivElement>(null);
     const [scrollPosition, setScrollPosition] = useState(0);
     const [imageMargin, setImageMargin] = useState(0);

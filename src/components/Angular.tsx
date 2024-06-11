@@ -1,5 +1,13 @@
 import ImageCarousel from "./ImageCarousel";
 
+const images: string[] = [
+    "./angular_groupphoto.png",
+    "./angular_homescreen.png",
+    "./angular_planscreen.png",
+    "./angular_activityscreen.png",
+    "./angular_imagepicker.png",
+]
+
 function Angular() {
     return (
         <div id="angular" className="flex flex-col items-end pb-44">
@@ -16,7 +24,7 @@ function Angular() {
                 De hulp van profecionals was ook fijn, op die manier werkte we aan een applicatie zoals je dat in het werkveld ook zou doen.
             </p>
             <br />
-            <ImageCarousel />
+            <ImageCarousel images={images} />
         </div>
     )
 }
