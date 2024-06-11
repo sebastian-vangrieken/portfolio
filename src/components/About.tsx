@@ -1,12 +1,3 @@
-import ImageCarousel from "./ImageCarousel";
-
-const images: string[] = [
-    "./vakantie1.jpg",
-    "./vakantie2.jpg",
-    "./vakantie3.jpg",
-    "./vakantie4.jpg",
-]
-
 function About() {
     return (
         <div id="about" className="flex flex-col items-end pb-44">
