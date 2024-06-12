@@ -32,7 +32,7 @@ function Stage() {
             <div className="grid grid-cols-[1fr_2fr]">
                 <div>
                     <h1 className="text-2xl font-bold mb-4">Mijn contributie:</h1>
-                    <p className="my-1"><a href="" target="_blank" className="font-semibold text-highlightl dark:text-highlightd">Realisatie document</a></p>
+                    <p className="my-1"><a href="./realisatie-document-stage-wisemen.pdf" target="_blank" className="font-semibold text-highlightl dark:text-highlightd">Realisatie document</a></p>
                     <p className="my-1"><a href="" target="_blank" className="font-semibold text-highlightl dark:text-highlightd">Reflectie</a></p>
                 </div>
                 <div>
