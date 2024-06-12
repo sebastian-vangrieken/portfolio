@@ -8,9 +8,9 @@ function Stage() {
                 <h1 className="text-2xl font-bold">Stage plek:</h1>
                 <div>
                     <p className="flex-wrap ms-auto">
-                    Voor mijn stage heb ik 14 weken mogen werken bij <a href="https://wisemen.digital/" className="text-wisemenGeel font-semibold" target="_blank">Wisemen</a> in Diepenbeek.
-                    Zij zijn een digital agency dat zich specialiseert in: marketing, design en development. Hier ben ik begeleid door 2 android developers.
-                    Na een onboarding om bekent te geraken met android development, en hoe zie hun projecten aanpakken ben ik aan mijn stage project kunnen gebinnen.
+                        Voor mijn stage heb ik 14 weken mogen werken bij <a href="https://wisemen.digital/" className="text-wisemenGeel font-semibold" target="_blank">Wisemen</a> in Diepenbeek.
+                        Zij zijn een digital agency dat zich specialiseert in: marketing, design en development. Hier ben ik begeleid door 2 android developers.
+                        Na een onboarding om bekent te geraken met android development, en hoe zie hun projecten aanpakken ben ik aan mijn stage project kunnen gebinnen.
                     </p>
                     <div className="w-full h-8 mb-8 border-b-2 border-highlightl dark:border-highlightd"></div>
                 </div>
@@ -33,7 +33,7 @@ function Stage() {
                 <div>
                     <h1 className="text-2xl font-bold mb-4">Mijn contributie:</h1>
                     <p className="my-1"><a href="./realisatie-document-stage-wisemen.pdf" target="_blank" className="font-semibold text-highlightl dark:text-highlightd">Realisatie document</a></p>
-                    <p className="my-1"><a href="" target="_blank" className="font-semibold text-highlightl dark:text-highlightd">Reflectie</a></p>
+                    <p className="my-1"><a href="./stage_reflectie.pdf" target="_blank" className="font-semibold text-highlightl dark:text-highlightd">Reflectie</a></p>
                 </div>
                 <div>
                     <p className="flex-wrap ms-auto">
